@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+</head>
+<body>
+    <h2>Lesson Detail View</h2>
+    {% if object is not None %}
+    <h4>{{ object.title }}</h4>
+    <p>{{ object.description }}</p>
+    {% else %}
+    <h3>Upgrade membership</h3>
+    {% endif %}
+
+
+</body>
+</html>
