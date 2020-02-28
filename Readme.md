@@ -11,3 +11,4 @@
 1. Create Django Project
 2. Memberships app
 3. Courses app
+4. Bootstrap
